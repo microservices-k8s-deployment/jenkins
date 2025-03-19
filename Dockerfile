@@ -4,7 +4,7 @@ USER root
 
 
 # RUN jenkins-plugin-cli --plugins "workflow-aggregator github ws-cleanup greenballs simple-theme-plugin kubernetes docker-workflow kubernetes-cli github-branch-source" 
-RUN jenkins-plugin-cli --plugins github:1.34.4 \
+RUN jenkins-plugin-cli --plugins github:1.40.0 \
                                  workflow-aggregator:581.v0c46fa_697ffd \
                                  ws-cleanup:0.42 \
                                  simple-theme-plugin:103.va_161d09c38c7 \
